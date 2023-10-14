@@ -1,0 +1,45 @@
+!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Parcel Sandbox</title> 
+    <meta charset="UTF-8" /> 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script> 
+    <link rel="stylesheet" href="src/styles.css" /> 
+  </head> 
+ 
+  <body> 
+    <div id="container"> 
+      <h1></h1> 
+      <form class="info" id="info"> 
+        <input 
+          type="search" 
+          id="city-input" 
+          placeholder="Your city..." 
+          autofocus="on" 
+          autocomplete="off" 
+          class="form-control" 
+        /> 
+        <button type="submit" class="btn btn-primary" value="Search"> 
+          🔍Search 
+        </button> 
+        <button class="btn btn-success w-100" id="current-button"> 
+          Current 
+        </button> 
+      </form> 
+      <p id="city">Odesa, Ukraine☀️</p> 
+      <div id="date"></div> 
+      <div id="description"></div> 
+      <div class="temperature" id="temperature"></div> 
+      <div id="temperature-description"></div> 
+      <div class="col-6"> 
+        <p1>Hosting with <a href="https://www.netlify.com/">Netlify</a></p1> 
+        <ul> 
+          <li>Humidity: <span id="hum"></span>%</li> 
+          <li>Wind: <span id="wind"></span> km/h</li> 
+        </ul> 
+      </div> 
+    </div> 
+ 
+    <script src="src/index.js"></script> 
+  </body> 
+</html>
