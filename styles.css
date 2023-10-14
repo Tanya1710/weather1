@@ -1,0 +1,30 @@
+body { 
+  font-family: sans-serif; 
+  border: 1px solid #285fa7; 
+  padding: 15px 15px; 
+  margin: 20px 20px; 
+  border-radius: 5px; 
+  max-width: 600px; 
+} 
+form { 
+  background-color: rgb(157, 255, 255); 
+  font-size: 36px; 
+  border: 1px solid #041224; 
+  padding: 10px; 
+  margin: 20px; 
+  border-radius: 5px; 
+  max-width: 700px; 
+} 
+ 
+p { 
+  color: rgb(33, 33, 33); 
+  font-size: 25px; 
+  font-weight: 200; 
+  line-height: 1; 
+} 
+.temperature { 
+  font-weight: 400; 
+  color: rgb(33, 33, 33); 
+  font-size: 36px; 
+  line-height: 1; 
+}
